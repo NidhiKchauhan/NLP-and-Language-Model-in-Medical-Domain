@@ -4,6 +4,7 @@ Abstract: This study addresses the pressing need for efficient text classificati
 
 Summary of the medical abstracts dataset:
 Hugging Face: https://huggingface.co/Nidhi0411/Medical-Abstracts-TC-Corpus-BioBert
+
 This repository contains a medical abstracts dataset, describing 5 different classes of patient conditions. The dataset can be used for text classification. 
 
 | **Class name**                  | **#training** | **#test** | **Total** |
