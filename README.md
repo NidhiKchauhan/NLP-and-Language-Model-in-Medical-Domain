@@ -1,6 +1,7 @@
 # Medical-Abstracts-TC-Corpus
 This repository contains a medical abstracts dataset, describing 5 different classes of patient conditions. The dataset can be used for text classification. 
 
+Abstract: This study addresses the pressing need for efficient text classification within the medical domain by applying advanced deep learning and natural language processing (NLP) techniques to categorize medical abstracts. This study focuses on the Medical-Abstracts-TC-Corpus dataset and evaluates various cutting-edge models to build a robust approach for medical text categorization to enhance patient care and clinical outcomes. The methodologies implemented include a baseline model utilizing Multinomial Naive Bayes with TF-IDF, followed by more advanced architectures such as Long Short-Term Memory (LSTM) networks, Convolutional Neural Networks (CNNs), and transformer-based models including BioBERT, XLNet, and RoBERTa. The BioBERT demonstrated the highest accuracy of 58.96% and F1-score of 63.34, indicating its superior performance. The study also pioneers using Explainable AI (XAI) approaches like LIME and SHAP to improve model interpretability and reliability for clinical use by revealing the factors that influence classification decisions. This study not only advances medical text classification methodologies but also underscores the importance of model transparency and interpretability in medical decision-making processes.
 Summary of the medical abstracts dataset:
 
 
@@ -13,11 +14,11 @@ Summary of the medical abstracts dataset:
 | General pathological conditions | 3844          | 961       | 4805      |
 | **Total**                       | **11550**     | **2888**  | **14438** |
 
-## Citation information
+## Citation information for the Dataset
 
 This dataset was created during the writing of our paper titled [Evaluating Unsupervised Text Classification: Zero-shot and Similarity-based Approaches](https://doi.org/10.1145/3582768.3582795).
 
-When citing this medical abstracts dataset in academic papers and theses, please use the following BibTeX entry:
+When citing this medical abstract dataset in academic papers and theses, please use the following BibTeX entry:
 ``` 
 @inproceedings{10.1145/3582768.3582795,
 author = {Schopf, Tim and Braun, Daniel and Matthes, Florian},
